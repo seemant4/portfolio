@@ -1,0 +1,259 @@
+.sidebar-wrapper{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 552px;
+    bottom: 0px;
+    z-index: 0;
+    width: 40%;
+    height: 100%;
+    padding: 75px 85px 50px;
+    background-color: #fafafa;
+}
+
+.about-container {
+    position: absolute;
+    left: 125px;
+    right: 0px;
+    bottom: 20%;
+    width: 65%;
+}
+
+.content-wrapper {
+    position: static;
+    overflow: visible;
+    width: 60%;
+    max-width: 1200px;
+    margin-left: 40%;
+    float: none;
+    clear: none;
+}
+
+.spotlight-home{
+  width: 100%;
+  height: auto;
+  padding: 65px;
+  background-color: #F8AB4B;
+}
+
+.spotlight-inside{
+  width: 100%;
+  height: auto;
+  padding: 65px;
+  background-color: #2E6CDB;
+}
+
+.spotlight-capture{
+  width: 100%;
+  height: auto;
+  padding: 65px;
+  background-color: #81E9E6;
+}
+
+.head-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #202020;
+  line-height: 45px;
+}
+
+.subtext{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-top:24px;
+  font-weight: 200;
+  color: #202020;
+  line-height: 26px;
+}
+
+span{
+  color:#4E93E9;
+  font-weight: 400;
+}
+
+.social{
+  display: inline-flex;
+  margin-top:24px;
+}
+
+.social-icon{
+  margin-left:12px;
+}
+
+.dribbble{
+  background: url("../images/dribbble.svg") no-repeat;
+  width:10%;
+  height:30px;
+}
+
+.behance{
+  background: url("../images/behance.svg") no-repeat;
+  width:10%;
+  height:30px;
+}
+
+.linkedin{
+  background: url("../images/linkedin.svg") no-repeat;
+  width:10%;
+  height:30px;
+}
+
+.dribbble:hover{
+  background: url("../images/dribbble_coloured.svg") no-repeat;
+  width:10%;
+  height:30px;
+}
+
+.behance:hover{
+  background: url("../images/behance_coloured.svg") no-repeat;
+  width:10%;
+  height:30px;
+}
+
+.linkedin:hover{
+  background: url("../images/linkedin_coloured.svg") no-repeat;
+  width:10%;
+  height:30px;
+}
+
+.say-hello{
+  margin-top: 24px;
+  padding:15px 80px;
+  border-radius: 50px;
+  background: #3169DB;
+  font-size: 14px;
+  font-family: 'Poppins' ,sans-serif;
+  font-weight: 400;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(49, 105, 219,0.40);
+}
+
+.say-hello:hover{
+  background: #0a42b5;
+  cursor: pointer;
+}
+
+.say-hello:focus{
+  outline: none !important;
+}
+
+
+.image{
+  /* height: 600px; */
+  width: 46%;
+  margin-left: 28%;
+}
+
+.work-number{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  color: #fff;
+}
+
+.title-sub{
+  font-family: 'Poppins', sans-serif;
+  margin-top: -50px;
+  margin-left: 0px;
+  font-weight: 200;
+  float: none;
+  clear: none;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 5px;
+  margin-left: 0px;
+  float: left;
+}
+
+.dribbble-link{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    padding: 0px;
+    float: right;
+    background-color: transparent;
+    background-image: url("../images/dribbble-ball-mark.png");
+    color: #fff;
+    background-position: 0px 0px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+@media (max-width:991px) {
+  .sidebar-wrapper{
+    position: static;
+    width: 100%;
+    height: 750px;
+    padding-right: 55px;
+    padding-left: 55px;
+  }
+
+  .about-container{
+    position: static;
+    width: 65%;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    margin-left: 0%;
+    float: none;
+    clear: none;
+  }
+}
+
+@media (max-width:767px) {
+  .sidebar-wrapper{
+    position: static;
+    width: 100%;
+    padding-left: 65px;
+  }
+
+  .about-container{
+    position: static;
+    width: 85%;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media (max-width:479px) {
+  .sidebar-wrapper{
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 25px 45px 75px;
+  }
+
+  .about-container{
+    position: static;
+    width: 100%;
+  }
+
+  .content-wrapper {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .image{
+    width: 68%;
+    margin-left: 18%;
+  }
+
+  .title-sub{
+    margin-top: -10px;
+  }
+}
